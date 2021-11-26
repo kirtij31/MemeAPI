@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemeAPI</string>
+    <string name="meme_image">Meme Image</string>
+    <string name="share">SHARE</string>
+    <string name="next">Next</string>
+    <string name="speed_check">Error: Check internet speed</string>
+    <string name="connection_check">Error: Check internet connection</string>
+</resources>
