@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         errorTextView = findViewById(R.id.error_text);
 
-        loadMemes();
+        loadMeme();
     }
 
-    private void loadMemes(){
+    private void loadMeme(){
         progressBar.setVisibility(View.VISIBLE);
         errorTextView.setVisibility(View.GONE);
         RequestQueue requestQueue = Volley.newRequestQueue(this);
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void next(View view) {
-        loadMemes();
+        loadMeme();
     }
 
     public void share(View view) {
